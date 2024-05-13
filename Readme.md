@@ -10,43 +10,43 @@
 1st iterate:
 When starting node push to the stack (0), 0 had stored in variable call current, and it remove from the stack.
 If 0 haven't been visited before, mark it as visited, and print it. 
-The loop for (int neighbor : graph[current]) iterates over each element (neighbor) in the adjacency list of the current vertex. 
-0 had linked to the 1 only, so if 1 haven't been visited before, push it to the stack
+The loop for (int neighbor : graph[current]) iterates over each element (neighbor) in the adjacency list of the current vertex.
+0 had linked to the 1 only, so if 1 haven't been visited before, push it to the stack.
 
 2nd iterate:
 When the stack (1), 1 had stored in 'current', and it remove from the stack.
 If 1 haven been visited before, mark it as visited and print it.
-1 had linked to 4 only, so if 4 haven't been visited before, push it to the stack
+1 had linked to 4 only, so if 4 haven't been visited before, push it to the stack.
 
 3rd iterate:
 When the stack (4), 4 had stored in 'current', and it remove from the stack.
 If 4 haven been visited before, mark it as visited and print it.
-4 had linked to the 3 and 2, so 3 and 2 will be push to the stack as they both haven't been visited
+4 had linked to the 3 and 2, so 3 and 2 will be push to the stack as they both haven't been visited.
 
 4th iterate:
 Now stack have (3,2), go through the 3 first, 3 store in 'current' and remove from the stack. * So now stack have (2) only
 3 mark as visited and print it. 
-As 3 don't linked with any others vertex, so it push nothing to stack
+As 3 don't linked with any others vertex, so it push nothing to stack.
 
 5th iterate:
 Now stack is (2), 2 store in 'current' and it remove from the stack. * So now stack had nothing ()
-2 haven't been visited so it mark as visited, and print it
-As 2 linked with 5 and 6, so both push to stack
+2 haven't been visited so it mark as visited, and print it.
+As 2 linked with 5 and 6, so both push to stack.
 
 6th iterate:
-Now stack is (5,6), let say go through 5 first, 5 stored in 'current' and been removed from the stack * So now stack is (6)
-5 been mark as visited and print it
-5 hadn't link with anyone else, so it push nothing to stack
+Now stack is (5,6), let say go through 5 first, 5 stored in 'current' and been removed from the stack * So now stack is (6).
+5 been mark as visited and print it.
+5 hadn't link with anyone else, so it push nothing to stack.
 
 7th iterate:
-Now stack is (6), 6 store in 'current' and remove from the stack
-6 been mark as visited and print it
-6 had linked to 7, so push 7 to the stack
+Now stack is (6), 6 store in 'current' and remove from the stack.
+6 been mark as visited and print it.
+6 had linked to 7, so push 7 to the stack.
 
 8th iterate:
-Now stack is (7), 7 store in 'current' and remove from the stack * So now the stack had nothing ()
-7 been mark as visited and print it
-7 don't linked anyone, so it pass nothing
+Now stack is (7), 7 store in 'current' and remove from the stack * So now the stack had nothing ().
+7 been mark as visited and print it.
+7 don't linked anyone, so it pass nothing.
 
 # Breathed First Search
 
