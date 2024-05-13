@@ -3,7 +3,7 @@
 <img src="graph.png" alt="Demo 1" width="600"/>
 
 
-# Death First Search
+# Depth First Search
 
 *Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
@@ -48,7 +48,7 @@ Now stack is (7), 7 store in 'current' and remove from the stack * So now the st
 7 been mark as visited and print it.
 7 don't linked anyone, so it pass nothing.
 
-# Breathed First Search
+# Breadth First Search
 
 *Breadth First Search (BFS) is a graph traversal algorithm that explores all the vertices in a graph at the current depth before moving on to the vertices at the next depth level. It starts at a specified vertex and visits all its neighbors before moving on to the next level of neighbors. BFS is commonly used in algorithms for pathfinding, connected components, and shortest path problems in graphs.
 
