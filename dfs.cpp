@@ -7,9 +7,7 @@ using namespace std;
 // Create a Adjacency List representation of a graph
 vector<vector<int>> graph = {{1}, {4}, {4,5,6}, {4}, {1,2,3}, {2}, {2,7}, {6}};
 
-//Function to perform DFS
 void DFS(int start){
-    // This is a boolean vector used to keep track of which nodes have been visited during the Depth-First Search (DFS) traversal
     // It is initialized with false values for all nodes, indicating that initially, no node has been visited
     vector<bool> visited(graph.size(), false);
     stack<int> stack; // Create a stack (data structure) for DFS
@@ -35,7 +33,7 @@ void DFS(int start){
 }
 
 int main(){
-    int startnode = 0; // Choose the starting node
+    int startnode = 0;
     cout << "DFS (Death First Search) Traversal: ";
     DFS(startnode);
 
